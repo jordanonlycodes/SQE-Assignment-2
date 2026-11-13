@@ -29,6 +29,8 @@ waitlist decision and the corresponding waitlist append path in
 
 ## Control-flow graph
 
+The rendered graph is available at [`docs/cfg.png`](cfg.png).
+
 The following node labels describe the function's decision graph. `T` and `F`
 refer to the true and false outcomes respectively.
 

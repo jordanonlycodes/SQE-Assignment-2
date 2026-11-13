@@ -1,0 +1,72 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.8, pytest-9.2.0, pluggy-1.7.0 -- /home/jordan/Projects/SQE-Assignment-2/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/jordan/Projects/SQE-Assignment-2
+plugins: cov-7.1.0
+collecting ... collected 20 items
+
+tests/test_whitebox.py::test_WB01_negative_dues_raises_first PASSED      [  5%]
+tests/test_whitebox.py::test_WB02_invalid_capacity_or_enrollment[WB02A-enrollment-below-zero-A-true-B-false] PASSED [ 10%]
+tests/test_whitebox.py::test_WB02_invalid_capacity_or_enrollment[WB02B-enrollment-above-capacity-A-true-B-false] PASSED [ 15%]
+tests/test_whitebox.py::test_WB02_invalid_capacity_or_enrollment[WB02C-zero-capacity-A-false-B-true] PASSED [ 20%]
+tests/test_whitebox.py::test_WB02_invalid_capacity_or_enrollment[WB02D-both-conditions-true] PASSED [ 25%]
+tests/test_whitebox.py::test_WB03_compound_condition_false_path_is_eligible PASSED [ 30%]
+tests/test_whitebox.py::test_WB04_dues_threshold_branch[WB04A-dues-over-1000-true-branch] PASSED [ 35%]
+tests/test_whitebox.py::test_WB04_dues_threshold_branch[WB04B-positive-dues-false-branch-current-code] PASSED [ 40%]
+tests/test_whitebox.py::test_WB04_dues_threshold_branch[WB04C-zero-dues-false-branch] PASSED [ 45%]
+tests/test_whitebox.py::test_WB05_duplicate_registration_returns_already_registered PASSED [ 50%]
+tests/test_whitebox.py::test_WB06_prerequisite_decision[WB06A-prerequisites-false-branch] PASSED [ 55%]
+tests/test_whitebox.py::test_WB06_prerequisite_decision[WB06B-prerequisites-true-branch] PASSED [ 60%]
+tests/test_whitebox.py::test_WB06_prerequisite_decision[WB06C-empty-prerequisite-set] PASSED [ 65%]
+tests/test_whitebox.py::test_WB07_credit_limit_decision[WB07A-credit-limit-false-branch] PASSED [ 70%]
+tests/test_whitebox.py::test_WB07_credit_limit_decision[WB07B-credit-limit-true-branch] PASSED [ 75%]
+tests/test_whitebox.py::test_WB07_credit_limit_decision[WB07C-exact-limit-srs-expectation] FAILED [ 80%]
+tests/test_whitebox.py::test_WB07_credit_validation_paths[WB07D-invalid-current-credits] PASSED [ 85%]
+tests/test_whitebox.py::test_WB07_credit_validation_paths[WB07E-invalid-course-credits] PASSED [ 90%]
+tests/test_whitebox.py::test_WB08_full_course_is_waitlisted_per_srs FAILED [ 95%]
+tests/test_whitebox.py::test_WB09_final_registration_outcome_below_capacity PASSED [100%]
+
+=================================== FAILURES ===================================
+______ test_WB07_credit_limit_decision[WB07C-exact-limit-srs-expectation] ______
+
+credits = 14, course_credits = 4, expected = 'REGISTERED'
+
+    @pytest.mark.parametrize(
+        "credits,course_credits,expected",
+        [
+            pytest.param(16, 3, "CREDIT_LIMIT", id="WB07A-credit-limit-false-branch"),
+            pytest.param(13, 4, "REGISTERED", id="WB07B-credit-limit-true-branch"),
+            pytest.param(14, 4, "REGISTERED", id="WB07C-exact-limit-srs-expectation"),
+        ],
+    )
+    def test_WB07_credit_limit_decision(credits, course_credits, expected):
+>       assert decide(credits=credits, course_credits=course_credits) == expected
+E       AssertionError: assert 'CREDIT_LIMIT' == 'REGISTERED'
+E         
+E         - REGISTERED
+E         + CREDIT_LIMIT
+
+tests/test_whitebox.py:103: AssertionError
+_________________ test_WB08_full_course_is_waitlisted_per_srs __________________
+
+    def test_WB08_full_course_is_waitlisted_per_srs():
+>       assert decide(capacity=2, enrolled=2) == "WAITLISTED"
+E       AssertionError: assert 'REGISTERED' == 'WAITLISTED'
+E         
+E         - WAITLISTED
+E         + REGISTERED
+
+tests/test_whitebox.py:123: AssertionError
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.8-final-0 ________________
+
+Name              Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------
+registration.py      53     14     26      1    73%   59, 65-72, 77-81
+-------------------------------------------------------------
+TOTAL                53     14     26      1    73%
+Coverage XML written to file docs/evidence/whitebox-only-coverage.xml
+=========================== short test summary info ============================
+FAILED tests/test_whitebox.py::test_WB07_credit_limit_decision[WB07C-exact-limit-srs-expectation]
+FAILED tests/test_whitebox.py::test_WB08_full_course_is_waitlisted_per_srs - ...
+========================= 2 failed, 18 passed in 0.12s =========================

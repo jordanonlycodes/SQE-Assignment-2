@@ -1,0 +1,456 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.8, pytest-9.2.0, pluggy-1.7.0 -- /home/jordan/Projects/SQE-Assignment-2/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/jordan/Projects/SQE-Assignment-2
+plugins: cov-7.1.0
+collecting ... collected 59 items
+
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-01-zero-current-min-course] PASSED [  1%]
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-02-exact-limit] FAILED [  3%]
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-03-max-course-valid] FAILED [  5%]
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-04-over-limit] PASSED [  6%]
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-05-negative-current] PASSED [  8%]
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-06-high-current] PASSED [ 10%]
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-07-zero-course] PASSED [ 11%]
+tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-08-high-course] PASSED [ 13%]
+tests/test_blackbox.py::test_A1_ECP_prerequisite_classes[A1-ECP-09-no-prerequisites] PASSED [ 15%]
+tests/test_blackbox.py::test_A1_ECP_prerequisite_classes[A1-ECP-10-all-prerequisites] PASSED [ 16%]
+tests/test_blackbox.py::test_A1_ECP_prerequisite_classes[A1-ECP-11-some-prerequisites] FAILED [ 18%]
+tests/test_blackbox.py::test_A1_ECP_prerequisite_classes[A1-ECP-12-none-prerequisites] PASSED [ 20%]
+tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-13-eligible-seat] PASSED [ 22%]
+tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-14-positive-dues] FAILED [ 23%]
+tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-15-existing-registration] PASSED [ 25%]
+tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-16-missing-prerequisite] PASSED [ 27%]
+tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-17-credit-limit] PASSED [ 28%]
+tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-18-full-course] FAILED [ 30%]
+tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-01-current-zero] PASSED [ 32%]
+tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-02-current-eighteen] PASSED [ 33%]
+tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-03-course-four-at-zero] PASSED [ 35%]
+tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-04-total-exactly-eighteen] FAILED [ 37%]
+tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-05-total-just-above-eighteen] PASSED [ 38%]
+tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-06-course-one-total-eighteen] FAILED [ 40%]
+tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-07-course-four-at-current-eighteen] PASSED [ 42%]
+tests/test_blackbox.py::test_A2_BVA_capacity_boundaries[A2-BVA-08-enrollment-at-capacity] FAILED [ 44%]
+tests/test_blackbox.py::test_A2_BVA_capacity_boundaries[A2-BVA-09-enrollment-one-below-capacity] PASSED [ 45%]
+tests/test_blackbox.py::test_A2_BVA_capacity_boundaries[A2-BVA-10-empty-course] PASSED [ 47%]
+tests/test_blackbox.py::test_A2_BVA_dues_boundary[A2-BVA-11-dues-zero] PASSED [ 49%]
+tests/test_blackbox.py::test_A2_BVA_dues_boundary[A2-BVA-12-dues-one] FAILED [ 50%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-01-dues-block] FAILED [ 52%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-02-already-registered] PASSED [ 54%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-03-prerequisites-missing] PASSED [ 55%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-04-credit-limit] PASSED [ 57%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-05-waitlisted] FAILED [ 59%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-06-registered] PASSED [ 61%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-07-priority-dues-over-duplicate] FAILED [ 62%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-08-priority-duplicate-over-prerequisite] PASSED [ 64%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-09-priority-prerequisite-over-credit] PASSED [ 66%]
+tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-10-priority-credit-over-full] PASSED [ 67%]
+tests/test_blackbox.py::test_A4_STATE_successful_registration_updates_all_fields PASSED [ 69%]
+tests/test_blackbox.py::test_A4_STATE_waitlist_adds_student_id_only_once FAILED [ 71%]
+tests/test_blackbox.py::test_A4_STATE_unsuccessful_registration_leaves_state_unchanged[A4-STATE-01-dues-failure] FAILED [ 72%]
+tests/test_blackbox.py::test_A4_STATE_unsuccessful_registration_leaves_state_unchanged[A4-STATE-02-credit-failure] PASSED [ 74%]
+tests/test_blackbox.py::test_A4_STATE_unsuccessful_registration_leaves_state_unchanged[A4-STATE-03-prerequisite-failure] PASSED [ 76%]
+tests/test_blackbox.py::test_A4_STATE_successful_withdrawal_updates_registration_credits_and_enrollment FAILED [ 77%]
+tests/test_blackbox.py::test_A4_STATE_failed_withdrawal_returns_false_without_mutation PASSED [ 79%]
+tests/test_blackbox.py::test_A4_STATE_registration_decision_does_not_mutate_either_object PASSED [ 81%]
+tests/test_blackbox.py::test_A4_VAL_credit_validation_messages_and_priority[A4-VAL-01-current-below-range] PASSED [ 83%]
+tests/test_blackbox.py::test_A4_VAL_credit_validation_messages_and_priority[A4-VAL-02-current-above-range] PASSED [ 84%]
+tests/test_blackbox.py::test_A4_VAL_credit_validation_messages_and_priority[A4-VAL-03-course-below-range] PASSED [ 86%]
+tests/test_blackbox.py::test_A4_VAL_credit_validation_messages_and_priority[A4-VAL-04-course-above-range] PASSED [ 88%]
+tests/test_blackbox.py::test_A4_VAL_credit_validation_messages_and_priority[A4-VAL-05-current-before-course-priority] PASSED [ 89%]
+tests/test_blackbox.py::test_A4_VAL_capacity_and_enrollment_validation[A4-VAL-06-zero-capacity] PASSED [ 91%]
+tests/test_blackbox.py::test_A4_VAL_capacity_and_enrollment_validation[A4-VAL-07-negative-enrollment] PASSED [ 93%]
+tests/test_blackbox.py::test_A4_VAL_capacity_and_enrollment_validation[A4-VAL-08-enrollment-over-capacity] PASSED [ 94%]
+tests/test_blackbox.py::test_A4_VAL_negative_dues_exact_message PASSED   [ 96%]
+tests/test_blackbox.py::test_A4_VAL_dues_validation_precedes_capacity_validation PASSED [ 98%]
+tests/test_decision_priority.py::test_dues_take_priority_over_full_course FAILED [100%]
+
+=================================== FAILURES ===================================
+______________ test_A1_ECP_credit_classes[A1-ECP-02-exact-limit] _______________
+
+current = 15, new = 3, expected = True
+
+    @pytest.mark.parametrize(
+        "current,new,expected",
+        [
+            pytest.param(0, 1, True, id="A1-ECP-01-zero-current-min-course"),
+            pytest.param(15, 3, True, id="A1-ECP-02-exact-limit"),
+            pytest.param(14, 4, True, id="A1-ECP-03-max-course-valid"),
+            pytest.param(16, 3, False, id="A1-ECP-04-over-limit"),
+            pytest.param(-1, 1, "Invalid current credits", id="A1-ECP-05-negative-current"),
+            pytest.param(19, 1, "Invalid current credits", id="A1-ECP-06-high-current"),
+            pytest.param(0, 0, "Invalid course credits", id="A1-ECP-07-zero-course"),
+            pytest.param(0, 5, "Invalid course credits", id="A1-ECP-08-high-course"),
+        ],
+    )
+    def test_A1_ECP_credit_classes(current, new, expected):
+        if isinstance(expected, str):
+            with pytest.raises(ValueError, match=f"^{expected}$"):
+                check_credit_limit(current, new)
+        else:
+>           assert check_credit_limit(current, new) is expected, (
+                f"credit eligibility for current={current}, course={new} "
+                f"should be {expected}"
+            )
+E           AssertionError: credit eligibility for current=15, course=3 should be True
+E           assert False is True
+E            +  where False = check_credit_limit(15, 3)
+
+tests/test_blackbox.py:50: AssertionError
+____________ test_A1_ECP_credit_classes[A1-ECP-03-max-course-valid] ____________
+
+current = 14, new = 4, expected = True
+
+    @pytest.mark.parametrize(
+        "current,new,expected",
+        [
+            pytest.param(0, 1, True, id="A1-ECP-01-zero-current-min-course"),
+            pytest.param(15, 3, True, id="A1-ECP-02-exact-limit"),
+            pytest.param(14, 4, True, id="A1-ECP-03-max-course-valid"),
+            pytest.param(16, 3, False, id="A1-ECP-04-over-limit"),
+            pytest.param(-1, 1, "Invalid current credits", id="A1-ECP-05-negative-current"),
+            pytest.param(19, 1, "Invalid current credits", id="A1-ECP-06-high-current"),
+            pytest.param(0, 0, "Invalid course credits", id="A1-ECP-07-zero-course"),
+            pytest.param(0, 5, "Invalid course credits", id="A1-ECP-08-high-course"),
+        ],
+    )
+    def test_A1_ECP_credit_classes(current, new, expected):
+        if isinstance(expected, str):
+            with pytest.raises(ValueError, match=f"^{expected}$"):
+                check_credit_limit(current, new)
+        else:
+>           assert check_credit_limit(current, new) is expected, (
+                f"credit eligibility for current={current}, course={new} "
+                f"should be {expected}"
+            )
+E           AssertionError: credit eligibility for current=14, course=4 should be True
+E           assert False is True
+E            +  where False = check_credit_limit(14, 4)
+
+tests/test_blackbox.py:50: AssertionError
+________ test_A1_ECP_prerequisite_classes[A1-ECP-11-some-prerequisites] ________
+
+completed = {'CS101'}, required = {'CS101', 'MATH101'}, expected = False
+
+    @pytest.mark.parametrize(
+        "completed,required,expected",
+        [
+            pytest.param(set(), set(), True, id="A1-ECP-09-no-prerequisites"),
+            pytest.param({"CS101", "MATH101"}, {"CS101", "MATH101"}, True, id="A1-ECP-10-all-prerequisites"),
+            pytest.param({"CS101"}, {"CS101", "MATH101"}, False, id="A1-ECP-11-some-prerequisites"),
+            pytest.param({"BIO101"}, {"CS101"}, False, id="A1-ECP-12-none-prerequisites"),
+        ],
+    )
+    def test_A1_ECP_prerequisite_classes(completed, required, expected):
+>       assert prerequisites_satisfied(completed, required) is expected
+E       AssertionError: assert True is False
+E        +  where True = prerequisites_satisfied({'CS101'}, {'CS101', 'MATH101'})
+
+tests/test_blackbox.py:66: AssertionError
+__________ test_A1_ECP_registration_classes[A1-ECP-14-positive-dues] ___________
+
+student_changes = {'outstanding_dues': 1}, course_changes = {}
+expected = 'DUES_BLOCK'
+
+    @pytest.mark.parametrize(
+        "student_changes,course_changes,expected",
+        [
+            pytest.param({}, {}, "REGISTERED", id="A1-ECP-13-eligible-seat"),
+            pytest.param({"outstanding_dues": 1}, {}, "DUES_BLOCK", id="A1-ECP-14-positive-dues"),
+            pytest.param({"registered_courses": {"CS201"}}, {}, "ALREADY_REGISTERED", id="A1-ECP-15-existing-registration"),
+            pytest.param({}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A1-ECP-16-missing-prerequisite"),
+            pytest.param({"current_credits": 16}, {}, "CREDIT_LIMIT", id="A1-ECP-17-credit-limit"),
+            pytest.param({}, {"enrolled": 2}, "WAITLISTED", id="A1-ECP-18-full-course"),
+        ],
+    )
+    def test_A1_ECP_registration_classes(student_changes, course_changes, expected):
+        student = Student("S101", **student_changes)
+        course = Course("CS201", 3, 2, **course_changes)
+>       assert registration_decision(student, course) == expected
+E       AssertionError: assert 'REGISTERED' == 'DUES_BLOCK'
+E         
+E         - DUES_BLOCK
+E         + REGISTERED
+
+tests/test_blackbox.py:83: AssertionError
+___________ test_A1_ECP_registration_classes[A1-ECP-18-full-course] ____________
+
+student_changes = {}, course_changes = {'enrolled': 2}, expected = 'WAITLISTED'
+
+    @pytest.mark.parametrize(
+        "student_changes,course_changes,expected",
+        [
+            pytest.param({}, {}, "REGISTERED", id="A1-ECP-13-eligible-seat"),
+            pytest.param({"outstanding_dues": 1}, {}, "DUES_BLOCK", id="A1-ECP-14-positive-dues"),
+            pytest.param({"registered_courses": {"CS201"}}, {}, "ALREADY_REGISTERED", id="A1-ECP-15-existing-registration"),
+            pytest.param({}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A1-ECP-16-missing-prerequisite"),
+            pytest.param({"current_credits": 16}, {}, "CREDIT_LIMIT", id="A1-ECP-17-credit-limit"),
+            pytest.param({}, {"enrolled": 2}, "WAITLISTED", id="A1-ECP-18-full-course"),
+        ],
+    )
+    def test_A1_ECP_registration_classes(student_changes, course_changes, expected):
+        student = Student("S101", **student_changes)
+        course = Course("CS201", 3, 2, **course_changes)
+>       assert registration_decision(student, course) == expected
+E       AssertionError: assert 'REGISTERED' == 'WAITLISTED'
+E         
+E         - WAITLISTED
+E         + REGISTERED
+
+tests/test_blackbox.py:83: AssertionError
+_______ test_A2_BVA_credit_boundaries[A2-BVA-04-total-exactly-eighteen] ________
+
+current = 14, new = 4, expected = True
+
+    @pytest.mark.parametrize(
+        "current,new,expected",
+        [
+            pytest.param(0, 1, True, id="A2-BVA-01-current-zero"),
+            pytest.param(18, 1, False, id="A2-BVA-02-current-eighteen"),
+            pytest.param(0, 4, True, id="A2-BVA-03-course-four-at-zero"),
+            pytest.param(14, 4, True, id="A2-BVA-04-total-exactly-eighteen"),
+            pytest.param(15, 4, False, id="A2-BVA-05-total-just-above-eighteen"),
+            pytest.param(17, 1, True, id="A2-BVA-06-course-one-total-eighteen"),
+            pytest.param(18, 4, False, id="A2-BVA-07-course-four-at-current-eighteen"),
+        ],
+    )
+    def test_A2_BVA_credit_boundaries(current, new, expected):
+>       assert check_credit_limit(current, new) is expected
+E       assert False is True
+E        +  where False = check_credit_limit(14, 4)
+
+tests/test_blackbox.py:100: AssertionError
+______ test_A2_BVA_credit_boundaries[A2-BVA-06-course-one-total-eighteen] ______
+
+current = 17, new = 1, expected = True
+
+    @pytest.mark.parametrize(
+        "current,new,expected",
+        [
+            pytest.param(0, 1, True, id="A2-BVA-01-current-zero"),
+            pytest.param(18, 1, False, id="A2-BVA-02-current-eighteen"),
+            pytest.param(0, 4, True, id="A2-BVA-03-course-four-at-zero"),
+            pytest.param(14, 4, True, id="A2-BVA-04-total-exactly-eighteen"),
+            pytest.param(15, 4, False, id="A2-BVA-05-total-just-above-eighteen"),
+            pytest.param(17, 1, True, id="A2-BVA-06-course-one-total-eighteen"),
+            pytest.param(18, 4, False, id="A2-BVA-07-course-four-at-current-eighteen"),
+        ],
+    )
+    def test_A2_BVA_credit_boundaries(current, new, expected):
+>       assert check_credit_limit(current, new) is expected
+E       assert False is True
+E        +  where False = check_credit_limit(17, 1)
+
+tests/test_blackbox.py:100: AssertionError
+______ test_A2_BVA_capacity_boundaries[A2-BVA-08-enrollment-at-capacity] _______
+
+enrolled = 2, expected = 'WAITLISTED'
+
+    @pytest.mark.parametrize(
+        "enrolled,expected",
+        [
+            pytest.param(2, "WAITLISTED", id="A2-BVA-08-enrollment-at-capacity"),
+            pytest.param(1, "REGISTERED", id="A2-BVA-09-enrollment-one-below-capacity"),
+            pytest.param(0, "REGISTERED", id="A2-BVA-10-empty-course"),
+        ],
+    )
+    def test_A2_BVA_capacity_boundaries(enrolled, expected):
+>       assert registration_decision(Student("S102"), Course("CS202", 1, 2, enrolled)) == expected
+E       AssertionError: assert 'REGISTERED' == 'WAITLISTED'
+E         
+E         - WAITLISTED
+E         + REGISTERED
+
+tests/test_blackbox.py:112: AssertionError
+________________ test_A2_BVA_dues_boundary[A2-BVA-12-dues-one] _________________
+
+dues = 1, expected = 'DUES_BLOCK'
+
+    @pytest.mark.parametrize(
+        "dues,expected",
+        [
+            pytest.param(0, "REGISTERED", id="A2-BVA-11-dues-zero"),
+            pytest.param(1, "DUES_BLOCK", id="A2-BVA-12-dues-one"),
+        ],
+    )
+    def test_A2_BVA_dues_boundary(dues, expected):
+>       assert registration_decision(Student("S103", outstanding_dues=dues), Course("CS203", 1, 1)) == expected
+E       AssertionError: assert 'REGISTERED' == 'DUES_BLOCK'
+E         
+E         - DUES_BLOCK
+E         + REGISTERED
+
+tests/test_blackbox.py:123: AssertionError
+____________ test_A3_DT_outcomes_and_priority[A3-DT-01-dues-block] _____________
+
+student_changes = {'outstanding_dues': 1}, course_changes = {}
+expected = 'DUES_BLOCK'
+
+    @pytest.mark.parametrize(
+        "student_changes,course_changes,expected",
+        [
+            pytest.param({"outstanding_dues": 1}, {}, "DUES_BLOCK", id="A3-DT-01-dues-block"),
+            pytest.param({"registered_courses": {"CS204"}}, {}, "ALREADY_REGISTERED", id="A3-DT-02-already-registered"),
+            pytest.param({}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A3-DT-03-prerequisites-missing"),
+            pytest.param({"current_credits": 16}, {}, "CREDIT_LIMIT", id="A3-DT-04-credit-limit"),
+            pytest.param({}, {"enrolled": 1}, "WAITLISTED", id="A3-DT-05-waitlisted"),
+            pytest.param({}, {}, "REGISTERED", id="A3-DT-06-registered"),
+            pytest.param({"outstanding_dues": 1, "registered_courses": {"CS204"}}, {}, "DUES_BLOCK", id="A3-DT-07-priority-dues-over-duplicate"),
+            pytest.param({"registered_courses": {"CS204"}}, {"prerequisites": {"CS101"}}, "ALREADY_REGISTERED", id="A3-DT-08-priority-duplicate-over-prerequisite"),
+            pytest.param({"current_credits": 16}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A3-DT-09-priority-prerequisite-over-credit"),
+            pytest.param({"current_credits": 16}, {"enrolled": 1}, "CREDIT_LIMIT", id="A3-DT-10-priority-credit-over-full"),
+        ],
+    )
+    def test_A3_DT_outcomes_and_priority(student_changes, course_changes, expected):
+        student = Student("S104", **student_changes)
+        course = Course("CS204", 3, 1, **course_changes)
+>       assert registration_decision(student, course) == expected
+E       AssertionError: assert 'REGISTERED' == 'DUES_BLOCK'
+E         
+E         - DUES_BLOCK
+E         + REGISTERED
+
+tests/test_blackbox.py:145: AssertionError
+____________ test_A3_DT_outcomes_and_priority[A3-DT-05-waitlisted] _____________
+
+student_changes = {}, course_changes = {'enrolled': 1}, expected = 'WAITLISTED'
+
+    @pytest.mark.parametrize(
+        "student_changes,course_changes,expected",
+        [
+            pytest.param({"outstanding_dues": 1}, {}, "DUES_BLOCK", id="A3-DT-01-dues-block"),
+            pytest.param({"registered_courses": {"CS204"}}, {}, "ALREADY_REGISTERED", id="A3-DT-02-already-registered"),
+            pytest.param({}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A3-DT-03-prerequisites-missing"),
+            pytest.param({"current_credits": 16}, {}, "CREDIT_LIMIT", id="A3-DT-04-credit-limit"),
+            pytest.param({}, {"enrolled": 1}, "WAITLISTED", id="A3-DT-05-waitlisted"),
+            pytest.param({}, {}, "REGISTERED", id="A3-DT-06-registered"),
+            pytest.param({"outstanding_dues": 1, "registered_courses": {"CS204"}}, {}, "DUES_BLOCK", id="A3-DT-07-priority-dues-over-duplicate"),
+            pytest.param({"registered_courses": {"CS204"}}, {"prerequisites": {"CS101"}}, "ALREADY_REGISTERED", id="A3-DT-08-priority-duplicate-over-prerequisite"),
+            pytest.param({"current_credits": 16}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A3-DT-09-priority-prerequisite-over-credit"),
+            pytest.param({"current_credits": 16}, {"enrolled": 1}, "CREDIT_LIMIT", id="A3-DT-10-priority-credit-over-full"),
+        ],
+    )
+    def test_A3_DT_outcomes_and_priority(student_changes, course_changes, expected):
+        student = Student("S104", **student_changes)
+        course = Course("CS204", 3, 1, **course_changes)
+>       assert registration_decision(student, course) == expected
+E       AssertionError: assert 'REGISTERED' == 'WAITLISTED'
+E         
+E         - WAITLISTED
+E         + REGISTERED
+
+tests/test_blackbox.py:145: AssertionError
+___ test_A3_DT_outcomes_and_priority[A3-DT-07-priority-dues-over-duplicate] ____
+
+student_changes = {'outstanding_dues': 1, 'registered_courses': {'CS204'}}
+course_changes = {}, expected = 'DUES_BLOCK'
+
+    @pytest.mark.parametrize(
+        "student_changes,course_changes,expected",
+        [
+            pytest.param({"outstanding_dues": 1}, {}, "DUES_BLOCK", id="A3-DT-01-dues-block"),
+            pytest.param({"registered_courses": {"CS204"}}, {}, "ALREADY_REGISTERED", id="A3-DT-02-already-registered"),
+            pytest.param({}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A3-DT-03-prerequisites-missing"),
+            pytest.param({"current_credits": 16}, {}, "CREDIT_LIMIT", id="A3-DT-04-credit-limit"),
+            pytest.param({}, {"enrolled": 1}, "WAITLISTED", id="A3-DT-05-waitlisted"),
+            pytest.param({}, {}, "REGISTERED", id="A3-DT-06-registered"),
+            pytest.param({"outstanding_dues": 1, "registered_courses": {"CS204"}}, {}, "DUES_BLOCK", id="A3-DT-07-priority-dues-over-duplicate"),
+            pytest.param({"registered_courses": {"CS204"}}, {"prerequisites": {"CS101"}}, "ALREADY_REGISTERED", id="A3-DT-08-priority-duplicate-over-prerequisite"),
+            pytest.param({"current_credits": 16}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A3-DT-09-priority-prerequisite-over-credit"),
+            pytest.param({"current_credits": 16}, {"enrolled": 1}, "CREDIT_LIMIT", id="A3-DT-10-priority-credit-over-full"),
+        ],
+    )
+    def test_A3_DT_outcomes_and_priority(student_changes, course_changes, expected):
+        student = Student("S104", **student_changes)
+        course = Course("CS204", 3, 1, **course_changes)
+>       assert registration_decision(student, course) == expected
+E       AssertionError: assert 'ALREADY_REGISTERED' == 'DUES_BLOCK'
+E         
+E         - DUES_BLOCK
+E         + ALREADY_REGISTERED
+
+tests/test_blackbox.py:145: AssertionError
+_______________ test_A4_STATE_waitlist_adds_student_id_only_once _______________
+
+    def test_A4_STATE_waitlist_adds_student_id_only_once():
+        student = Student("S105")
+        course = Course("CS205", 3, 1, enrolled=1)
+>       assert register_course(student, course) == "WAITLISTED"
+E       AssertionError: assert 'REGISTERED' == 'WAITLISTED'
+E         
+E         - WAITLISTED
+E         + REGISTERED
+
+tests/test_blackbox.py:160: AssertionError
+_ test_A4_STATE_unsuccessful_registration_leaves_state_unchanged[A4-STATE-01-dues-failure] _
+
+student_changes = {'outstanding_dues': 1}, course_changes = {}
+expected = 'DUES_BLOCK'
+
+    @pytest.mark.parametrize(
+        "student_changes,course_changes,expected",
+        [
+            pytest.param({"outstanding_dues": 1}, {}, "DUES_BLOCK", id="A4-STATE-01-dues-failure"),
+            pytest.param({"current_credits": 16}, {}, "CREDIT_LIMIT", id="A4-STATE-02-credit-failure"),
+            pytest.param({}, {"prerequisites": {"CS101"}}, "PREREQUISITES_MISSING", id="A4-STATE-03-prerequisite-failure"),
+        ],
+    )
+    def test_A4_STATE_unsuccessful_registration_leaves_state_unchanged(student_changes, course_changes, expected):
+        student = Student("S106", **student_changes)
+        course = Course("CS206", 3, 2, **course_changes)
+        before = state_of(student, course)
+>       assert register_course(student, course) == expected
+E       AssertionError: assert 'REGISTERED' == 'DUES_BLOCK'
+E         
+E         - DUES_BLOCK
+E         + REGISTERED
+
+tests/test_blackbox.py:179: AssertionError
+_ test_A4_STATE_successful_withdrawal_updates_registration_credits_and_enrollment _
+
+    def test_A4_STATE_successful_withdrawal_updates_registration_credits_and_enrollment():
+        student = Student("S107", current_credits=6, registered_courses={"CS207"})
+        course = Course("CS207", 3, 4, enrolled=2)
+        assert withdraw_course(student, course) is True
+        assert "CS207" not in student.registered_courses, "withdrawal must remove the course"
+        assert student.current_credits == 3, "withdrawal must subtract course credits"
+>       assert course.enrolled == 1, "withdrawal must decrement enrollment"
+E       AssertionError: withdrawal must decrement enrollment
+E       assert 2 == 1
+E        +  where 2 = Course(code='CS207', credit_hours=3, capacity=4, enrolled=2, prerequisites=set(), waitlist=[]).enrolled
+
+tests/test_blackbox.py:189: AssertionError
+___________________ test_dues_take_priority_over_full_course ___________________
+
+    def test_dues_take_priority_over_full_course():
+        student = Student("S201", outstanding_dues=1)
+        course = Course("CS301", 3, 1, enrolled=1)
+    
+        result = registration_decision(student, course)
+    
+>       assert result == "DUES_BLOCK"
+E       AssertionError: assert 'REGISTERED' == 'DUES_BLOCK'
+E         
+E         - DUES_BLOCK
+E         + REGISTERED
+
+tests/test_decision_priority.py:11: AssertionError
+- generated xml file: /home/jordan/Projects/SQE-Assignment-2/docs/evidence/blackbox-expanded.xml -
+=========================== short test summary info ============================
+FAILED tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-02-exact-limit]
+FAILED tests/test_blackbox.py::test_A1_ECP_credit_classes[A1-ECP-03-max-course-valid]
+FAILED tests/test_blackbox.py::test_A1_ECP_prerequisite_classes[A1-ECP-11-some-prerequisites]
+FAILED tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-14-positive-dues]
+FAILED tests/test_blackbox.py::test_A1_ECP_registration_classes[A1-ECP-18-full-course]
+FAILED tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-04-total-exactly-eighteen]
+FAILED tests/test_blackbox.py::test_A2_BVA_credit_boundaries[A2-BVA-06-course-one-total-eighteen]
+FAILED tests/test_blackbox.py::test_A2_BVA_capacity_boundaries[A2-BVA-08-enrollment-at-capacity]
+FAILED tests/test_blackbox.py::test_A2_BVA_dues_boundary[A2-BVA-12-dues-one]
+FAILED tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-01-dues-block]
+FAILED tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-05-waitlisted]
+FAILED tests/test_blackbox.py::test_A3_DT_outcomes_and_priority[A3-DT-07-priority-dues-over-duplicate]
+FAILED tests/test_blackbox.py::test_A4_STATE_waitlist_adds_student_id_only_once
+FAILED tests/test_blackbox.py::test_A4_STATE_unsuccessful_registration_leaves_state_unchanged[A4-STATE-01-dues-failure]
+FAILED tests/test_blackbox.py::test_A4_STATE_successful_withdrawal_updates_registration_credits_and_enrollment
+FAILED tests/test_decision_priority.py::test_dues_take_priority_over_full_course
+======================== 16 failed, 43 passed in 0.21s =========================

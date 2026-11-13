@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="20" time="0.077" timestamp="2026-11-13T23:15:16.473004+05:00" hostname="jordan-arch"><testcase classname="tests.test_whitebox" name="test_WB01_negative_dues_raises_first" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB02_invalid_capacity_or_enrollment[WB02A-enrollment-below-zero-A-true-B-false]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB02_invalid_capacity_or_enrollment[WB02B-enrollment-above-capacity-A-true-B-false]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB02_invalid_capacity_or_enrollment[WB02C-zero-capacity-A-false-B-true]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB02_invalid_capacity_or_enrollment[WB02D-both-conditions-true]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB03_compound_condition_false_path_is_eligible" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB04_dues_threshold_branch[WB04A-dues-over-1000-true-branch]" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB04_dues_threshold_branch[WB04B-positive-dues-false-branch-current-code]" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB04_dues_threshold_branch[WB04C-zero-dues-false-branch]" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB05_duplicate_registration_returns_already_registered" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB06_prerequisite_decision[WB06A-prerequisites-false-branch]" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB06_prerequisite_decision[WB06B-prerequisites-true-branch]" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB06_prerequisite_decision[WB06C-empty-prerequisite-set]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB07_credit_limit_decision[WB07A-credit-limit-false-branch]" time="0.000" /><testcase classname="tests.test_whitebox" name="test_WB07_credit_limit_decision[WB07B-credit-limit-true-branch]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB07_credit_limit_decision[WB07C-exact-limit-srs-expectation]" time="0.001"><failure message="AssertionError: assert 'CREDIT_LIMIT' == 'REGISTERED'&#10;  &#10;  - REGISTERED&#10;  + CREDIT_LIMIT">credits = 14, course_credits = 4, expected = 'REGISTERED'
+
+    @pytest.mark.parametrize(
+        "credits,course_credits,expected",
+        [
+            pytest.param(16, 3, "CREDIT_LIMIT", id="WB07A-credit-limit-false-branch"),
+            pytest.param(13, 4, "REGISTERED", id="WB07B-credit-limit-true-branch"),
+            pytest.param(14, 4, "REGISTERED", id="WB07C-exact-limit-srs-expectation"),
+        ],
+    )
+    def test_WB07_credit_limit_decision(credits, course_credits, expected):
+&gt;       assert decide(credits=credits, course_credits=course_credits) == expected
+E       AssertionError: assert 'CREDIT_LIMIT' == 'REGISTERED'
+E         
+E         - REGISTERED
+E         + CREDIT_LIMIT
+
+tests/test_whitebox.py:103: AssertionError</failure></testcase><testcase classname="tests.test_whitebox" name="test_WB07_credit_validation_paths[WB07D-invalid-current-credits]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB07_credit_validation_paths[WB07E-invalid-course-credits]" time="0.001" /><testcase classname="tests.test_whitebox" name="test_WB08_full_course_is_waitlisted_per_srs" time="0.001"><failure message="AssertionError: assert 'REGISTERED' == 'WAITLISTED'&#10;  &#10;  - WAITLISTED&#10;  + REGISTERED">def test_WB08_full_course_is_waitlisted_per_srs():
+&gt;       assert decide(capacity=2, enrolled=2) == "WAITLISTED"
+E       AssertionError: assert 'REGISTERED' == 'WAITLISTED'
+E         
+E         - WAITLISTED
+E         + REGISTERED
+
+tests/test_whitebox.py:123: AssertionError</failure></testcase><testcase classname="tests.test_whitebox" name="test_WB09_final_registration_outcome_below_capacity" time="0.000" /></testsuite></testsuites>

@@ -1,0 +1,406 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 6 /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 3324 >>
+stream
+0.340 0.420 0.500 rg BT /F2 9 Tf 1 0 0 1 50.0 769.0 Tm (SE3002 | SOFTWARE QUALITY ENGINEERING | ASSIGNMENT 2) Tj ET
+0.090 0.210 0.360 rg BT /F2 25 Tf 1 0 0 1 50.0 712.0 Tm (Student Course Registration System) Tj ET
+0.320 0.400 0.490 rg BT /F1 15 Tf 1 0 0 1 50.0 683.0 Tm (Black-box and white-box testing report) Tj ET
+0.55 0.68 0.79 RG 1.5 w 50.0 667.0 m 545.0 667.0 l S
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 625.0 Tm (Project overview) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 618.0 m 547.0 618.0 l S
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 598.0 Tm (The project tests an in-memory course registration module against REQUIREMENTS.md. The supplied) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 583.0 Tm (implementation is treated as the system under test. Expected outcomes remain requirement-based;) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 568.0 Tm (no production-code fixes or test expectation changes were made.) Tj ET
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 532.0 Tm (Test execution summary) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 525.0 m 547.0 525.0 l S
+0.09 0.21 0.36 rg 0.09 0.21 0.36 RG 0.5 w 48.0 488.0 470.0 27.0 re B
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 52.0 502.0 Tm (Run) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 242.0 502.0 Tm (Total) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 332.0 502.0 Tm (Passed) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 427.0 502.0 Tm (Failed) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 458.0 470.0 30.0 re B
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 52.0 475.0 Tm (Initial black-box) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 242.0 475.0 Tm (58) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 332.0 475.0 Tm (43) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 427.0 475.0 Tm (15) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 428.0 470.0 30.0 re B
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 52.0 445.0 Tm (Expanded black-box) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 242.0 445.0 Tm (59) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 332.0 445.0 Tm (43) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 427.0 445.0 Tm (16) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 398.0 470.0 30.0 re B
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 52.0 415.0 Tm (White-box) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 242.0 415.0 Tm (20) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 332.0 415.0 Tm (18) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 427.0 415.0 Tm (2) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 368.0 470.0 30.0 re B
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 52.0 385.0 Tm (Combined) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 242.0 385.0 Tm (79) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 332.0 385.0 Tm (61) Tj ET
+0.160 0.200 0.250 rg BT /F1 9 Tf 1 0 0 1 427.0 385.0 Tm (18) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 346.0 Tm (All failures are retained because they expose behavior that conflicts with the SRS. Detailed) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 331.0 Tm (transcripts and coverage evidence are saved under docs/evidence/.) Tj ET
+0.75 0.8 0.85 RG 0.5 w 42.0 35.0 m 553.0 35.0 l S
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 48.0 19.0 Tm (SE3002 Software Quality Engineering | Assignment 2) Tj ET
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 523.0 19.0 Tm (1) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4122 >>
+stream
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 777.0 Tm (1. Black-box test design) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 770.0 m 547.0 770.0 l S
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 750.0 Tm (Equivalence Class Partitioning \(ECP\) divides inputs into classes expected to behave alike.) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 735.0 Tm (Cases include valid and invalid current/course credits \(FR-01, FR-02\); empty, complete,) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 720.0 Tm (partial, or absent prerequisites \(FR-03\); zero/positive/negative dues \(FR-04, FR-15\); duplicate) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 705.0 Tm (status \(FR-05\); and eligible/ineligible availability paths \(FR-06 through FR-09\).) Tj ET
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 669.0 Tm (Boundary Value Analysis \(BVA\)) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 662.0 m 547.0 662.0 l S
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 642.0 Tm (Boundary cases cover current credits 0 and 18, course credits 1 and 4, combined totals exactly) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 627.0 Tm (18 and just above, seats at capacity / one below / zero, and dues 0 versus 1. Input-validation) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 612.0 Tm (boundaries also exercise invalid credits, capacity below 1, and enrollment outside 0..capacity) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 597.0 Tm (\(FR-02, FR-15\).) Tj ET
+0.09 0.21 0.36 rg 0.09 0.21 0.36 RG 0.5 w 48.0 553.0 470.0 27.0 re B
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 52.0 567.0 Tm (Dimension) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 162.0 567.0 Tm (Representative input) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 337.0 567.0 Tm (SRS expected result) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 517.0 470.0 36.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 541.0 Tm (Credit total) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 162.0 541.0 Tm (14 current + 4 course) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 337.0 541.0 Tm (Allowed: total exactly 18) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 481.0 470.0 36.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 505.0 Tm (Credit total) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 162.0 505.0 Tm (15 current + 4 course) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 337.0 505.0 Tm (Rejected: total exceeds 18) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 445.0 470.0 36.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 469.0 Tm (Course boundary) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 162.0 469.0 Tm (1 and 4 credit hours) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 337.0 469.0 Tm (Both valid course-credit bounds) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 409.0 470.0 36.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 433.0 Tm (Seat boundary) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 162.0 433.0 Tm (enrolled = capacity) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 337.0 433.0 Tm (WAITLISTED) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 373.0 470.0 36.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 397.0 Tm (Seat boundary) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 162.0 397.0 Tm (enrolled < capacity) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 337.0 397.0 Tm (REGISTERED) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 337.0 470.0 36.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 361.0 Tm (Dues boundary) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 162.0 361.0 Tm (0 / 1 rupee) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 337.0 361.0 Tm (continue / DUES_BLOCK) Tj ET
+0.350 0.400 0.460 rg BT /F1 9 Tf 1 0 0 1 50.0 316.0 Tm (Full test IDs, requirement traceability, conditions, and expected results are listed in) Tj ET
+0.350 0.400 0.460 rg BT /F1 9 Tf 1 0 0 1 50.0 303.0 Tm (docs/blackbox_test_design.xlsx.) Tj ET
+0.75 0.8 0.85 RG 0.5 w 42.0 35.0 m 553.0 35.0 l S
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 48.0 19.0 Tm (SE3002 Software Quality Engineering | Assignment 2) Tj ET
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 523.0 19.0 Tm (2) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 5424 >>
+stream
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 777.0 Tm (2. Decision table and priority order) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 770.0 m 547.0 770.0 l S
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 750.0 Tm (The system returns the first applicable outcome in the ordered checks below. A dash means a) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 736.0 Tm (lower-priority condition does not affect that rule.) Tj ET
+0.09 0.21 0.36 rg 0.09 0.21 0.36 RG 0.5 w 48.0 693.0 542.0 27.0 re B
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 52.0 707.0 Tm (Rule) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 94.0 707.0 Tm (Dues) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 154.0 707.0 Tm (Duplicate) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 224.0 707.0 Tm (Prerequisites) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 324.0 707.0 Tm (Credit limit) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 414.0 707.0 Tm (Availability) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 504.0 707.0 Tm (Outcome) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 649.0 542.0 44.0 re B
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 52.0 682.0 Tm (1) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 94.0 682.0 Tm (> 0) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 154.0 682.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 224.0 682.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 324.0 682.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 414.0 682.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 504.0 682.0 Tm (DUES_BLOCK) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 605.0 542.0 44.0 re B
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 52.0 638.0 Tm (2) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 94.0 638.0 Tm (= 0) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 154.0 638.0 Tm (Yes) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 224.0 638.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 324.0 638.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 414.0 638.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 504.0 638.0 Tm (ALREADY_REGISTERED) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 561.0 542.0 44.0 re B
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 52.0 594.0 Tm (3) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 94.0 594.0 Tm (= 0) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 154.0 594.0 Tm (No) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 224.0 594.0 Tm (Missing any) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 324.0 594.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 414.0 594.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 504.0 594.0 Tm (PREREQUISITES_MISSING) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 517.0 542.0 44.0 re B
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 52.0 550.0 Tm (4) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 94.0 550.0 Tm (= 0) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 154.0 550.0 Tm (No) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 224.0 550.0 Tm (All met) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 324.0 550.0 Tm (Would exceed 18) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 414.0 550.0 Tm (-) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 504.0 550.0 Tm (CREDIT_LIMIT) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 473.0 542.0 44.0 re B
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 52.0 506.0 Tm (5) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 94.0 506.0 Tm (= 0) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 154.0 506.0 Tm (No) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 224.0 506.0 Tm (All met) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 324.0 506.0 Tm (Fits) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 414.0 506.0 Tm (At capacity) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 504.0 506.0 Tm (WAITLISTED) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 429.0 542.0 44.0 re B
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 52.0 462.0 Tm (6) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 94.0 462.0 Tm (= 0) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 154.0 462.0 Tm (No) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 224.0 462.0 Tm (All met) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 324.0 462.0 Tm (Fits) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 414.0 462.0 Tm (Below capacity) Tj ET
+0.160 0.200 0.250 rg BT /F1 7 Tf 1 0 0 1 504.0 462.0 Tm (REGISTERED) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 401.0 Tm (Priority interaction cases include dues + duplicate, duplicate + missing prerequisites, missing) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 386.0 Tm (prerequisites + credit limit, and credit limit + full course. These verify precedence rather) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 371.0 Tm (than only isolated outcomes.) Tj ET
+1 0.96 0.85 rg 0.82 0.63 0.15 RG 1 w 50.0 283.0 495.0 90.0 re B
+0.370 0.260 0.060 rg BT /F2 10 Tf 1 0 0 1 62.0 351.0 Tm (Important observed behavior: the current code blocks dues only when the balance is greater) Tj ET
+0.370 0.260 0.060 rg BT /F2 10 Tf 1 0 0 1 62.0 337.0 Tm (than Rs.1000. The SRS decision table specifies any amount above zero. Tests retain the) Tj ET
+0.370 0.260 0.060 rg BT /F2 10 Tf 1 0 0 1 62.0 323.0 Tm (Rs.1 expected DUES_BLOCK result.) Tj ET
+0.75 0.8 0.85 RG 0.5 w 42.0 35.0 m 553.0 35.0 l S
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 48.0 19.0 Tm (SE3002 Software Quality Engineering | Assignment 2) Tj ET
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 523.0 19.0 Tm (3) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 4301 >>
+stream
+0.090 0.210 0.360 rg BT /F2 19 Tf 1 0 0 1 45.0 541.0 Tm (3. CFG: registration_decision\(student, course\)) Tj ET
+0.350 0.400 0.460 rg BT /F1 9 Tf 1 0 0 1 45.0 524.0 Tm (Actual implementation flow; red labels show early returns/exceptions. Dashed waitlist edge is infeasible after validation.) Tj ET
+0.32 0.4 0.49 RG 1.1 w 470.0 507.0 m 470.0 498.0 l S
+0.150 0.400 0.180 rg BT /F2 8 Tf 1 0 0 1 447.0 510.0 Tm (ENTRY) Tj ET
+1 0.96 0.85 rg 0.69 0.48 0 RG 1 w 355.0 468.0 230.0 30.0 re B
+0.690 0.480 0.000 rg BT /F2 8 Tf 1 0 0 1 360.0 475.0 Tm (D1: dues < 0?) Tj ET
+0.250 0.320 0.390 rg BT /F2 8 Tf 1 0 0 1 595.0 479.0 Tm (F) Tj ET
+0.32 0.4 0.49 RG 1 w 470.0 468.0 m 470.0 437.0 l S
+0.72 0.22 0.22 RG 1.2 w 355.0 483.0 m 250.0 483.0 l S
+0.650 0.150 0.150 rg BT /F2 8 Tf 1 0 0 1 255.0 479.0 Tm (T) Tj ET
+0.550 0.140 0.120 rg BT /F2 8 Tf 1 0 0 1 65.0 479.0 Tm (Invalid dues) Tj ET
+1 0.96 0.85 rg 0.69 0.48 0 RG 1 w 355.0 407.0 230.0 30.0 re B
+0.690 0.480 0.000 rg BT /F2 8 Tf 1 0 0 1 360.0 414.0 Tm (D2: invalid capacity/enrollment?) Tj ET
+0.250 0.320 0.390 rg BT /F2 8 Tf 1 0 0 1 595.0 418.0 Tm (F) Tj ET
+0.32 0.4 0.49 RG 1 w 470.0 407.0 m 470.0 376.0 l S
+0.72 0.22 0.22 RG 1.2 w 355.0 422.0 m 250.0 422.0 l S
+0.650 0.150 0.150 rg BT /F2 8 Tf 1 0 0 1 255.0 418.0 Tm (T) Tj ET
+0.550 0.140 0.120 rg BT /F2 8 Tf 1 0 0 1 65.0 418.0 Tm (Invalid capacity/enrollment) Tj ET
+1 0.96 0.85 rg 0.69 0.48 0 RG 1 w 355.0 346.0 230.0 30.0 re B
+0.690 0.480 0.000 rg BT /F2 8 Tf 1 0 0 1 360.0 353.0 Tm (D3: dues > 1000?) Tj ET
+0.250 0.320 0.390 rg BT /F2 8 Tf 1 0 0 1 595.0 357.0 Tm (F) Tj ET
+0.32 0.4 0.49 RG 1 w 470.0 346.0 m 470.0 315.0 l S
+0.72 0.22 0.22 RG 1.2 w 355.0 361.0 m 250.0 361.0 l S
+0.650 0.150 0.150 rg BT /F2 8 Tf 1 0 0 1 255.0 357.0 Tm (T) Tj ET
+0.550 0.140 0.120 rg BT /F2 8 Tf 1 0 0 1 65.0 357.0 Tm (DUES_BLOCK) Tj ET
+1 0.96 0.85 rg 0.69 0.48 0 RG 1 w 355.0 285.0 230.0 30.0 re B
+0.690 0.480 0.000 rg BT /F2 8 Tf 1 0 0 1 360.0 292.0 Tm (D4: duplicate?) Tj ET
+0.250 0.320 0.390 rg BT /F2 8 Tf 1 0 0 1 595.0 296.0 Tm (F) Tj ET
+0.32 0.4 0.49 RG 1 w 470.0 285.0 m 470.0 254.0 l S
+0.72 0.22 0.22 RG 1.2 w 355.0 300.0 m 250.0 300.0 l S
+0.650 0.150 0.150 rg BT /F2 8 Tf 1 0 0 1 255.0 296.0 Tm (T) Tj ET
+0.550 0.140 0.120 rg BT /F2 8 Tf 1 0 0 1 65.0 296.0 Tm (ALREADY_REGISTERED) Tj ET
+1 0.96 0.85 rg 0.69 0.48 0 RG 1 w 355.0 224.0 230.0 30.0 re B
+0.690 0.480 0.000 rg BT /F2 8 Tf 1 0 0 1 360.0 231.0 Tm (D5: prerequisites missing?) Tj ET
+0.250 0.320 0.390 rg BT /F2 8 Tf 1 0 0 1 595.0 235.0 Tm (F) Tj ET
+0.32 0.4 0.49 RG 1 w 470.0 224.0 m 470.0 193.0 l S
+0.72 0.22 0.22 RG 1.2 w 355.0 239.0 m 250.0 239.0 l S
+0.650 0.150 0.150 rg BT /F2 8 Tf 1 0 0 1 255.0 235.0 Tm (T) Tj ET
+0.550 0.140 0.120 rg BT /F2 8 Tf 1 0 0 1 65.0 235.0 Tm (PREREQUISITES_MISSING) Tj ET
+1 0.96 0.85 rg 0.69 0.48 0 RG 1 w 355.0 163.0 230.0 30.0 re B
+0.690 0.480 0.000 rg BT /F2 8 Tf 1 0 0 1 360.0 170.0 Tm (D6: exceeds 18 credits?) Tj ET
+0.250 0.320 0.390 rg BT /F2 8 Tf 1 0 0 1 595.0 174.0 Tm (F) Tj ET
+0.32 0.4 0.49 RG 1 w 470.0 163.0 m 470.0 132.0 l S
+0.72 0.22 0.22 RG 1.2 w 355.0 178.0 m 250.0 178.0 l S
+0.650 0.150 0.150 rg BT /F2 8 Tf 1 0 0 1 255.0 174.0 Tm (T) Tj ET
+0.550 0.140 0.120 rg BT /F2 8 Tf 1 0 0 1 65.0 174.0 Tm (CREDIT_LIMIT) Tj ET
+1 0.96 0.85 rg 0.69 0.48 0 RG 1 w 355.0 102.0 230.0 30.0 re B
+0.690 0.480 0.000 rg BT /F2 8 Tf 1 0 0 1 360.0 109.0 Tm (D7: enrolled > capacity?) Tj ET
+0.250 0.320 0.390 rg BT /F2 8 Tf 1 0 0 1 595.0 113.0 Tm (F) Tj ET
+0.32 0.4 0.49 RG 1 w 470.0 102.0 m 470.0 60.0 l S
+0.72 0.22 0.22 RG 1.2 w 355.0 117.0 m 250.0 117.0 l S
+0.650 0.150 0.150 rg BT /F2 8 Tf 1 0 0 1 255.0 113.0 Tm (T) Tj ET
+0.550 0.140 0.120 rg BT /F2 8 Tf 1 0 0 1 65.0 113.0 Tm (WAITLISTED \(unreachable\)) Tj ET
+0.3 0.4 0.3 RG 1 w 470.0 60.0 m 470.0 51.0 l S
+0.150 0.400 0.180 rg BT /F2 9 Tf 1 0 0 1 412.0 31.0 Tm (REGISTERED) Tj ET
+1 0.96 0.85 rg 0.82 0.63 0.15 RG 0.8 w 620.0 110.0 180.0 60.0 re B
+0.450 0.220 0.160 rg BT /F1 8 Tf 1 0 0 1 628.0 152.0 Tm (Validation enforces enrolled <=) Tj ET
+0.450 0.220 0.160 rg BT /F1 8 Tf 1 0 0 1 628.0 142.0 Tm (capacity, so D7 true cannot occur.) Tj ET
+0.75 0.8 0.85 RG 0.5 w 42.0 35.0 m 800.0 35.0 l S
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 48.0 19.0 Tm (SE3002 Software Quality Engineering | Assignment 2) Tj ET
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 770.0 19.0 Tm (4) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 4087 >>
+stream
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 777.0 Tm (4. Complexity, basis paths, and MC/DC) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 770.0 m 547.0 770.0 l S
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 750.0 Tm (Cyclomatic complexity under the assignment's seven-if-decision convention is M = 1 + 7 = 8. The) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 735.0 Tm (compound capacity/enrollment expression is counted as one if decision. This is a structural) Tj ET
+0.140 0.200 0.280 rg BT /F1 10 Tf 1 0 0 1 50.0 720.0 Tm (count; the waitlist basis path is infeasible.) Tj ET
+0.09 0.21 0.36 rg 0.09 0.21 0.36 RG 0.5 w 48.0 676.0 495.0 27.0 re B
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 52.0 690.0 Tm (Path) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 104.0 690.0 Tm (Decision sequence / outcome) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 648.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 664.0 Tm (P1) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 664.0 Tm (D1 true -> Invalid dues exception) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 620.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 636.0 Tm (P2) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 636.0 Tm (D1 false, D2 true -> Invalid capacity/enrollment exception) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 592.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 608.0 Tm (P3) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 608.0 Tm (D1-D2 false, D3 true -> DUES_BLOCK) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 564.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 580.0 Tm (P4) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 580.0 Tm (D1-D3 false, D4 true -> ALREADY_REGISTERED) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 536.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 552.0 Tm (P5) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 552.0 Tm (D1-D4 false, D5 true -> PREREQUISITES_MISSING) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 508.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 524.0 Tm (P6) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 524.0 Tm (D1-D5 false, D6 true -> CREDIT_LIMIT) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 480.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 496.0 Tm (P7) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 496.0 Tm (D1-D6 false, D7 true -> WAITLISTED \(structural, infeasible\)) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 452.0 495.0 28.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 468.0 Tm (P8) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 104.0 468.0 Tm (All decisions false -> REGISTERED) Tj ET
+0.090 0.210 0.360 rg BT /F2 12 Tf 1 0 0 1 50.0 428.0 Tm (Compound condition analysis) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 412.0 Tm (Let A = enrollment outside 0..capacity; B = capacity < 1; decision = A OR B. WB03 \(capacity 2, enrolled) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 399.0 Tm (1\) gives \(F,F\) -> F. WB02A \(capacity 2, enrolled -1\) gives \(T,F\) -> T. WB02C \(capacity 0, enrolled 0\)) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 386.0 Tm (gives \(F,T\) -> T. WB02D has logical \(T,T\), but Python short-circuits and does not evaluate B when A is) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 373.0 Tm (true.) Tj ET
+0.200 0.280 0.350 rg BT /F2 9 Tf 1 0 0 1 50.0 351.0 Tm (MC/DC is demonstrated for this compound decision: compare WB03 with WB02A to show A changes the outcome) Tj ET
+0.200 0.280 0.350 rg BT /F2 9 Tf 1 0 0 1 50.0 338.0 Tm (while B is false; compare WB03 with WB02C to show B changes the outcome while A is false. Each pair) Tj ET
+0.200 0.280 0.350 rg BT /F2 9 Tf 1 0 0 1 50.0 325.0 Tm (changes only one condition. This claim is limited to this compound condition.) Tj ET
+0.75 0.8 0.85 RG 0.5 w 42.0 35.0 m 553.0 35.0 l S
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 48.0 19.0 Tm (SE3002 Software Quality Engineering | Assignment 2) Tj ET
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 523.0 19.0 Tm (5) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 5422 >>
+stream
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 777.0 Tm (5. Coverage, defects, and repository collaboration) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 770.0 m 547.0 770.0 l S
+0.09 0.21 0.36 rg 0.09 0.21 0.36 RG 0.5 w 48.0 733.0 495.0 27.0 re B
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 52.0 747.0 Tm (Coverage scope) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 192.0 747.0 Tm (Statements) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 307.0 747.0 Tm (Branches) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 432.0 747.0 Tm (Reported result) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 694.0 495.0 39.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 721.0 Tm (Combined registration.py) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 192.0 721.0 Tm (51/53 \(96.2%\)) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 307.0 721.0 Tm (24/26 arcs \(92.3%\), 2) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 307.0 711.0 Tm (partial) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 432.0 721.0 Tm (95% combined pytest-cov) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 655.0 495.0 39.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 682.0 Tm (registration_decision\(\)) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 192.0 682.0 Tm (14/15 \(93.3%\)) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 307.0 682.0 Tm (13/14 \(92.9%\)) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 432.0 682.0 Tm (WAITLISTED line/true edge) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 432.0 672.0 Tm (uncovered) Tj ET
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 624.0 Tm (Confirmed defects in the original implementation) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 617.0 m 547.0 617.0 l S
+0.09 0.21 0.36 rg 0.09 0.21 0.36 RG 0.5 w 48.0 580.0 495.0 27.0 re B
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 52.0 594.0 Tm (Observed defect) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 242.0 594.0 Tm (SRS rule) Tj ET
+1.000 1.000 1.000 rg BT /F2 8 Tf 1 0 0 1 422.0 594.0 Tm (Status) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 542.0 495.0 38.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 568.0 Tm (Exactly 18 credits rejected) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 242.0 568.0 Tm (FR-01: total <= 18 allowed) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 422.0 568.0 Tm (Unresolved; boundary test) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 422.0 558.0 Tm (fails) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 504.0 495.0 38.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 530.0 Tm (Partial prerequisite match accepted) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 242.0 530.0 Tm (FR-03: all required courses completed) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 422.0 530.0 Tm (Unresolved; ECP test fails) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 466.0 495.0 38.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 492.0 Tm (Dues blocked only above Rs.1000) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 242.0 492.0 Tm (FR-04: any positive dues blocks) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 422.0 492.0 Tm (Unresolved; Rs.1 tests fail) Tj ET
+1 1 1 rg 0.72 0.78 0.84 RG 0.4 w 48.0 428.0 495.0 38.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 454.0 Tm (Full course returns REGISTERED) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 242.0 454.0 Tm (FR-08: full course -> WAITLISTED) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 422.0 454.0 Tm (Unresolved; waitlist path) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 422.0 444.0 Tm (unreachable) Tj ET
+0.95 0.97 0.99 rg 0.72 0.78 0.84 RG 0.4 w 48.0 390.0 495.0 38.0 re B
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 52.0 416.0 Tm (Withdrawal leaves enrollment unchanged) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 242.0 416.0 Tm (FR-13: decrement enrollment) Tj ET
+0.160 0.200 0.250 rg BT /F1 8 Tf 1 0 0 1 422.0 416.0 Tm (Unresolved; state test fails) Tj ET
+0.090 0.210 0.360 rg BT /F2 17 Tf 1 0 0 1 48.0 359.0 Tm (GitHub collaboration / PR evidence) Tj ET
+0.55 0.68 0.79 RG 1.2 w 48.0 352.0 m 547.0 352.0 l S
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 333.0 Tm (A GitHub origin and branch refs \(main, blackbox-testing, whitebox-testing\) are present in local) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 320.0 Tm (repository metadata. Inspected repository files contain no PR URL, issue record, review/approval, or) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 307.0 Tm (named contribution log. Thus PR creation, review status, issue identifiers, and member contributions) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 294.0 Tm (cannot be verified from available repository evidence. README guidance describing an intended workflow is) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 281.0 Tm (not evidence that it occurred.) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 256.0 Tm (Evidence: initial, expanded, white-box, and combined test transcripts plus coverage XML are retained) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 243.0 Tm (under docs/evidence/. CI workflow is configured to run pytest with branch coverage on pushes and pull) Tj ET
+0.140 0.200 0.280 rg BT /F1 9 Tf 1 0 0 1 50.0 230.0 Tm (requests; genuine expected failures remain visible.) Tj ET
+0.75 0.8 0.85 RG 0.5 w 42.0 35.0 m 553.0 35.0 l S
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 48.0 19.0 Tm (SE3002 Software Quality Engineering | Assignment 2) Tj ET
+0.380 0.440 0.500 rg BT /F1 8 Tf 1 0 0 1 523.0 19.0 Tm (6) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000155 00000 n 
+0000000225 00000 n 
+0000000300 00000 n 
+0000003676 00000 n 
+0000003812 00000 n 
+0000007986 00000 n 
+0000008122 00000 n 
+0000013598 00000 n 
+0000013735 00000 n 
+0000018089 00000 n 
+0000018227 00000 n 
+0000022367 00000 n 
+0000022505 00000 n 
+0000027980 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+28118
+%%EOF
